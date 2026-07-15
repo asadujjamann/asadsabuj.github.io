@@ -7,13 +7,13 @@ Asad Sabuj builds WordPress websites using Elementor Pro, Divi, and Gutenberg. H
 
 ## Key Facts
 - Upwork profile: https://www.upwork.com/freelancers/~0187bfc383a4384ce5
-- Hourly rate: $25/hr (Upwork); $20 for a 30-minute consultation call
+- Hourly rate: $20/hr (Upwork); $20 for a 30-minute consultation call
 - Job Success Score: 100%
 - Hours logged: 1,500+
 - Projects completed: 63+
 - Location: Rangpur, Bangladesh (GMT+6)
 - Languages: English (fluent), Bengali (native)
-- Contact: asadujjamann@gmail.com
+- Contact: typetoasad@gmail.com
 
 ## Services
 - Figma / PSD / XD to WordPress conversion
@@ -23,6 +23,7 @@ Asad Sabuj builds WordPress websites using Elementor Pro, Divi, and Gutenberg. H
 - ACF + Custom Post Types development
 - WordPress maintenance & support
 - Front-end development (HTML5, CSS3, JavaScript, Bootstrap, Tailwind)
+- Back-end development (PHP, MySQL, WordPress, REST API, Git & GitHub)
 
 ## Portfolio Projects
 - Bridgepoint Alliance (B2B, USA): https://bridgepoint-alliance.com/
