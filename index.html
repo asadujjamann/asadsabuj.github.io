@@ -790,10 +790,10 @@
                         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
                         <div class="form-row">
-                            <input type="text" id="formName" placeholder="Your Name" required>
-                            <input type="email" id="formEmail" placeholder="Your Email" required>
+                            <input type="text" id="formName" name="name" placeholder="Your Name" required>
+                            <input type="email" id="formEmail" name="email" placeholder="Your Email" required>
                         </div>
-                        <select id="formService" required>
+                        <select id="formService" name="service" required>
                             <option value="" disabled selected>Service Needed</option>
                             <option value="wp-development">WordPress site Development</option>
                             <option value="figma-to-wp">Figma to WordPress</option>
@@ -804,7 +804,7 @@
                             <option value="maintenance">WordPress Maintenance</option>
                             <option value="other">Other</option>
                         </select>
-                        <textarea id="formMessage" placeholder="Tell me about your project..." rows="4" required></textarea>
+                        <textarea id="formMessage" name="message" placeholder="Tell me about your project..." rows="4" required></textarea>
                         <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message</button>
                     </form>
                 </div>

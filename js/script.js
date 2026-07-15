@@ -224,35 +224,46 @@ document.querySelectorAll('.work-card, .service-item, .skill-group, .review-card
     fadeObs.observe(el);
 });
 
+
 // --- Contact Form ---
-const form = document.getElementById('contactForm');
-const submitBtn = document.getElementById('submitBtn');
+// const form = document.getElementById('contactForm');
+// const submitBtn = document.getElementById('submitBtn');
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const name = document.getElementById('formName').value.trim();
-    const email = document.getElementById('formEmail').value.trim();
-    const service = document.getElementById('formService').value;
-    const message = document.getElementById('formMessage').value.trim();
-    if (!name || !email || !service || !message) return;
+// form.addEventListener('submit', async (e) => {
+//     e.preventDefault();
+//     const name = document.getElementById('formName').value.trim();
+//     const email = document.getElementById('formEmail').value.trim();
+//     const service = document.getElementById('formService').value;
+//     const message = document.getElementById('formMessage').value.trim();
+//     if (!name || !email || !service || !message) return;
 
-    const subject = `Portfolio Inquiry from ${name} - ${service}`;
-    const body = `Hi Asadujjaman,\n\nMy name is ${name}.\n\nService: ${service}\n\nMessage:\n${message}\n\nBest regards,\n${name}\n${email}`;
-    const mailto = `mailto:asadujjamann@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+//     submitBtn.textContent = 'SENDING...';
+//     submitBtn.disabled = true;
 
-    submitBtn.textContent = 'SENDING...';
-    submitBtn.disabled = true;
-    window.location.href = mailto;
+//     try {
+//         const formData = new FormData(form);
+//         const response = await fetch(form.action, {
+//             method: 'POST',
+//             body: formData,
+//             headers: { 'Accept': 'application/json' }
+//         });
 
-    setTimeout(() => {
-        submitBtn.textContent = 'SENT!';
-        setTimeout(() => {
-            submitBtn.textContent = 'SEND MESSAGE';
-            submitBtn.disabled = false;
-            form.reset();
-        }, 2000);
-    }, 1000);
-});
+//         if (response.ok) {
+//             submitBtn.textContent = 'SENT!';
+//             form.reset();
+//         } else {
+//             throw new Error('Submission failed');
+//         }
+//     } catch (err) {
+//         submitBtn.textContent = 'FAILED - TRY AGAIN';
+//     }
+
+//     setTimeout(() => {
+//         submitBtn.textContent = 'SEND MESSAGE';
+//         submitBtn.disabled = false;
+//     }, 2000);
+// });
+
 
 // --- Active Nav Link ---
 const sections = document.querySelectorAll('section[id]');
