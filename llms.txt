@@ -1,0 +1,42 @@
+# Md Asadujjaman Sabuj (Asad Sabuj)
+
+> Top Rated WordPress expert on Upwork (100% Job Success Score, 1,500+ hours, 63+ projects). Based in Rangpur, Bangladesh. Converts Figma/PSD/XD designs into pixel-perfect WordPress websites.
+
+## Summary
+Asad Sabuj builds WordPress websites using Elementor Pro, Divi, and Gutenberg. He specializes in Figma-to-WordPress conversion, WooCommerce store development (Stripe, Afterpay, Xero), ACF and Custom Post Type architecture, WordPress bug fixing, and speed optimization. Clients are primarily from the USA, Australia, UK, and Europe.
+
+## Key Facts
+- Upwork profile: https://www.upwork.com/freelancers/~0187bfc383a4384ce5
+- Hourly rate: $25/hr (Upwork); $20 for a 30-minute consultation call
+- Job Success Score: 100%
+- Hours logged: 1,500+
+- Projects completed: 63+
+- Location: Rangpur, Bangladesh (GMT+6)
+- Languages: English (fluent), Bengali (native)
+- Contact: asadujjamann@gmail.com
+
+## Services
+- Figma / PSD / XD to WordPress conversion
+- WooCommerce store setup & customization
+- WordPress bug fixing & troubleshooting
+- Speed optimization & performance
+- ACF + Custom Post Types development
+- WordPress maintenance & support
+- Front-end development (HTML5, CSS3, JavaScript, Bootstrap, Tailwind)
+
+## Portfolio Projects
+- Bridgepoint Alliance (B2B, USA): https://bridgepoint-alliance.com/
+- AF Health Naturopath Clinic (Australia): https://www.alexfisherhealth.com.au/
+- AF Health E-Shop, WooCommerce (Australia): https://shop.alexfisherhealth.com.au/
+- Treestar Counselling (Australia): https://treestar.au/
+- Hoem Property Management Platform (USA): https://hoem.co/
+- RentProof Fintech Platform (USA): https://rentproof.co/
+- Northern Star HVAC, WooCommerce (USA): https://northernstarheat.com/
+- Indian Bites Restaurant (Denmark): https://www.indianbites.dk/
+
+## Links
+- Portfolio: https://asadsabuj.com/
+- Upwork: https://www.upwork.com/freelancers/~0187bfc383a4384ce5
+- LinkedIn: https://www.linkedin.com/in/md-asadujjaman-sabuj/
+- GitHub: https://github.com/asadujjamann
+- WordPress Plugin (MinuteRead): https://wordpress.org/plugins/minuteread/
