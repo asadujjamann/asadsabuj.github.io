@@ -315,6 +315,7 @@ workCardsClickable.forEach(card => {
         const url = card.getAttribute('data-url');
         const video = card.getAttribute('data-video');
         const screenshot = card.getAttribute('data-screenshot');
+        const localShot = card.getAttribute('data-local-shot');
 
         projectModalTitle.textContent = title;
         projectModalDesc.textContent = desc;
@@ -324,18 +325,28 @@ workCardsClickable.forEach(card => {
         // Clear previous content
         projectModalBody.innerHTML = '';
 
-        // Show video if available, otherwise show screenshot
+        // Show video if available, otherwise show a screenshot
         if (video && video.trim() !== '') {
             const iframe = document.createElement('iframe');
             iframe.src = video + '?autoplay=0&rel=0';
             iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
             iframe.allowFullscreen = true;
             projectModalBody.appendChild(iframe);
-        } else if (screenshot) {
+        } else if (localShot || screenshot) {
             const img = document.createElement('img');
-            img.src = screenshot;
             img.alt = title;
             img.loading = 'lazy';
+            // Prefer the real local screenshot; if it 404s (not uploaded yet),
+            // fall back to the placeholder automatically.
+            if (localShot) {
+                img.src = localShot;
+                img.onerror = () => {
+                    img.onerror = null;
+                    if (screenshot) img.src = screenshot;
+                };
+            } else {
+                img.src = screenshot;
+            }
             projectModalBody.appendChild(img);
         }
 

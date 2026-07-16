@@ -17,8 +17,12 @@ Asad Sabuj builds WordPress websites using Elementor Pro, Divi, and Gutenberg. H
 
 ## Services
 - Figma / PSD / XD to WordPress conversion
+- Custom WordPress site development
+- Custom WordPress theme development
+- Custom WordPress plugin development
 - WooCommerce store setup & customization
-- WordPress bug fixing & troubleshooting
+- PHP bug fixing & troubleshooting
+- CSS bug fixing & layout repair
 - Speed optimization & performance
 - ACF + Custom Post Types development
 - WordPress maintenance & support
